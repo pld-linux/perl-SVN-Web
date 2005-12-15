@@ -16,18 +16,18 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ae343e3dcd1f220cc1740e9ad44c59fa
 URL:		http://search.cpan.org/~nikc/SVN-Web/
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-Template-Toolkit
-BuildRequires:  perl-YAML
-BuildRequires:  perl-XML-RSS
-BuildRequires:	perl-Template-Plugin-Number-Format
-BuildRequires:  perl-Text-Diff
-BuildRequires:	perl-Text-Diff-HTML
 BuildRequires:	perl-Locale-Maketext-Lexicon
 BuildRequires:  perl-Locale-Maketext-Simple
-BuildRequires:	perl-subversion >= 1.0.4
+BuildRequires:	perl-Template-Plugin-Number-Format
+BuildRequires:	perl-Template-Toolkit
+BuildRequires:  perl-Text-Diff
+BuildRequires:	perl-Text-Diff-HTML
 BuildRequires:  perl-URI
+BuildRequires:  perl-XML-RSS
+BuildRequires:  perl-YAML
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-subversion >= 1.0.4
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 #BuildRequires:	perl-Test-WWW-Mechanize ?
 %endif
