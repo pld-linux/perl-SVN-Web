@@ -7,14 +7,14 @@
 %define		pnam	Web
 Summary:	Subversion repository web frontend
 Summary(pl):	Frontend WWW dla repozytoriów subversion
-Name:		perl-%{pdir}-%{pnam}
-Version:	0.41
-Release:	0.1
+Name:		perl-SVN-Web
+Version:	0.49
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ae343e3dcd1f220cc1740e9ad44c59fa
+Source0:	http://www.cpan.org/modules/by-module/SVN/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	e77ae70b158bc6fe94e244272faefb16
 URL:		http://search.cpan.org/~nikc/SVN-Web/
 BuildRequires:	perl-Locale-Maketext-Lexicon
 BuildRequires:	perl-Locale-Maketext-Simple
