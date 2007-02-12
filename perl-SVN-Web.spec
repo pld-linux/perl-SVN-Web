@@ -6,7 +6,7 @@
 %define		pdir	SVN
 %define		pnam	Web
 Summary:	Subversion repository web frontend
-Summary(pl):	Frontend WWW dla repozytoriów subversion
+Summary(pl.UTF-8):   Frontend WWW dla repozytoriÃ³w subversion
 Name:		perl-SVN-Web
 Version:	0.49
 Release:	1
@@ -37,8 +37,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Subversion repository web frontend.
 
-%description -l pl
-Frontend WWW dla repozytoriów subversion.
+%description -l pl.UTF-8
+Frontend WWW dla repozytoriÃ³w subversion.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
