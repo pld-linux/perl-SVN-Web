@@ -6,7 +6,7 @@
 %define		pdir	SVN
 %define		pnam	Web
 Summary:	Subversion repository web frontend
-Summary(pl.UTF-8):   Frontend WWW dla repozytoriów subversion
+Summary(pl.UTF-8):	Frontend WWW dla repozytoriów subversion
 Name:		perl-SVN-Web
 Version:	0.49
 Release:	1
